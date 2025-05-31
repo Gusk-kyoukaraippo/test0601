@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>下の検索窓に語句を入れて</h2>
+    <h3>今は「釘」関連でないと上手く返事がきません。notebookLMよりアホです</h3>
+    <!-- Widget JavaScript bundle -->
+<script src="https://cloud.google.com/ai/gen-app-builder/client?hl=ja"></script>
+
+<!-- Search widget element is not visible by default -->
+<gen-search-widget
+  configId="e639828b-6c71-4419-8634-b64fd7736ce3"
+  triggerId="searchWidgetTrigger">
+</gen-search-widget>
+
+<!-- Element that opens the widget on click. It does not have to be an input -->
+<input placeholder="ここで検索" id="searchWidgetTrigger" /> 
+</body>
+</html>
